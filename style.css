@@ -1,0 +1,48 @@
+#branches {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+
+    
+}
+#branches h2{
+     font-weight: bolder;
+     font-size:large;
+     
+     
+    
+}
+#branches h4{
+    text-decoration: underline;
+    color: rgb(5, 4, 78);
+}
+#branches .light{
+    background-color: rgb(69, 63, 63);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2px 4px;
+    border: 2px solid;
+    border-radius: 8px;
+    display: inline;
+    color: rgb(101, 252, 111);
+    
+    
+}
+#branches .it{
+    height: 200px;
+    width: 100%;
+    background-size: 200px 150px;
+    background-image:url(./assets/robot.webp);
+    background-repeat: no-repeat;
+    background-position: top left;
+   color:rgb(5, 4, 78);
+
+   
+
+}
+#branches .list{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 20px;
+
+}
