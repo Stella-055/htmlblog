@@ -39,3 +39,45 @@ div {
     text-decoration: aqua;
   }
 
+
+.mercyh3{
+font-family: Arial, Helvetica, sans-serif; 
+font-size: medium;
+color: rgba(0, 155, 80, 1);
+font-weight: 690;
+text-decoration: underline;
+
+}
+.mercyp{
+    text-align: center;
+    color: black;
+    text-transform:calc();
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 1.5;
+
+}
+ dl.span dt{
+    text-align: justify;
+    text-shadow: 0ch;
+    text-overflow: ellipsis;
+    color: #444;
+}
+dl.span dt.meta {
+    h1 {
+  font-size: 32px;
+  color: darkblue;
+  text-align: center;
+  margin-left: 1em;
+}
+
+dl.span dt.alpha {
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+  text-align: justify;
+  text-shadow: 0.5px 0.5px 1px rgba(0,0,0,0.8);
+}
+
+}
