@@ -1,0 +1,41 @@
+.underdog-regular {
+  font-family: "Underdog", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+div {
+  background-image: url(./assets/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.git{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+.version{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+ div h1 {
+    color: white;
+    font-size: 34px;
+    text-decoration: underline;
+    font-family: helvetica;
+    font-style: oblique;
+  }
+ div dl {
+    color: white;
+  }
+ div p {
+    color: white;
+  }
+ div ul {
+    color: rgb(255, 0, 21);
+  }
+  h2{
+    color: maroon;
+    text-decoration: aqua;
+  }
+
