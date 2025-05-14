@@ -56,21 +56,12 @@
      <p class="mercyp">To see the status of your files and the staging area, you can use the command <b>git status</b></p>
      <p class="mercyp">There is a difference between tracked and untracked files</p>
 
-    <dl>
-        <dt>-tracked files</dt>
-        <dd>Tracked files are files that Git is already aware of. These files are either staged (ready to be committed) or unstaged (modified but not yet staged).</dd>
+    <dl class="span">
+        <dt class="meta">-tracked files</dt>
+        <dd class="alpha">Tracked files are files that Git is already aware of. These files are either staged (ready to be committed) or unstaged (modified but not yet staged).</dd>
         <dt>-untracked files</dt>
         <dd>Untracked files are files that Git is not currently tracking. These files are new and have not been added to the staging area yet.</dd>
     </dl>
-    <p>To start tracking files in your repository, you need to add them to the staging area. You can do this using the <b>git add .</b> command.</p>
-    <img src="./assets/Pasted image (2).png" alt="">
-    <p>The <b>.</b> indicates that you want to add all changes in the current directory. You can also specify individual files if you only want to add specific changes.</p>
-    <p>After adding files to the staging area, you can check the status again using <b>git status</b>. You should see that the files are now staged and ready to be committed.</p>
-    <h3>4.Committing changes</h3>
-    <p>Once you have staged your changes, you can commit them to the repository. A commit is like a snapshot of your project at a specific point in time.</p>
-    <p>To commit your changes, use the following command: <b>git commit -m "your commit message"</b></p>
-    <p>The <b>-m</b> flag allows you to add a commit message directly in the command line. This message should describe the changes you made in that commit.</p>
-    <P>A good commit  should answer the question what this change will do</P>
     <img src="./assets/Pasted image (3).png" alt="">
     <figcaption>Commit message being passed</figcaption>
     <h3>5.Branches</h3>
